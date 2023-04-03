@@ -546,6 +546,88 @@ a.site-logo img {
 
 
 
+
+/* div practice */
+
+.div-practice {
+  width: 50%;
+  margin: 0 auto;
+  height: 2000px;
+}
+
+
+.up-down {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 300px;
+}
+
+.jin-eating {
+  margin-bottom: 50px;
+}
+
+.jin-eating img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.329);
+}
+
+.jin-content {
+  text-align: center;
+  font-size: 20px;
+}
+
+.jin-content .jinwoo {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.left-right,
+.right-left {
+  width: 100%;
+}
+
+.left-right .left,
+.left-right .right {
+  width: 50%;
+}
+
+.left-right .left img {
+  width: 80%;
+}
+
+.left-right .left {
+  text-align: center;
+  border-right: 2px solid rgb(114, 114, 114);
+}
+
+.left-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 300px;
+}
+
+
+.left-right .right p {
+  font-size: 30px;
+}
+
+.left-right .right {
+  width: 50%;
+}
+
+.left-right .right .jinwoo-content {
+  font-size: 20px;
+}
+
+.left-right .right .right-content {
+  width: 50%;
+  margin: auto;
+}
+
+
+
 /* 
   Footer
 */
